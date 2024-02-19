@@ -1,0 +1,35 @@
+.main__div{
+   margin: auto;
+   width: 70%;
+   background-color: pink;
+   margin-top: 30px;
+   text-align: center;
+   padding: 10px;
+}
+.input__field{
+    width: 25%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn1 {
+    padding: 12px 20px;
+    margin-left: 20px;
+    background-color: #3498db; /* Use a specific color */
+    color: #fff;
+    border: 1px solid #3498db; /* Add a border for contrast */
+    border-radius: 5px; /* Slightly reduce border-radius for a more subtle effect */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add a smooth transition for background color */
+}
+
+.btn1:hover {
+    background-color: #2980b9; /* Darken the background color on hover */
+}
+
+.loader{
+align-items: center;
+font-size: 180px;
+margin-top: 30px;
+}
