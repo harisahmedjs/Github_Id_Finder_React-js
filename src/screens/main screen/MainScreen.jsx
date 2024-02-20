@@ -42,14 +42,25 @@ console.log(newData);
           
           <div key={index} className='main__rendering'>
 
-              <div  className='rendering__div'>
-               <h1>{item.login}</h1>
-               <img src={item.avatar_url} alt="avatar" />
-             </div>
+
+             <div className='profile-container'>
+                <img src={item.avatar_url} alt="avatar" className='profile-img' />
+                <button className='link__btn'><a  href={item.html_url} target="_blank">Visit Profile</a></button>
+              </div>
+
 
           <div  className='rendering__div2' >
-            <button><a href={item.html_url} target="_blank" rel="noopener noreferrer">go to link</a></button>
+               <p className='bio1'><span>Username:-</span>{item.login}</p>
+               <p className='bio'><span>Bio:-</span>{item.bio}</p>
+               <p className='bio1'><span>Joined At:-</span> {item.created_at}</p>
+               <p className='bio1'><span>Total_Repos:-</span>{item.public_repos}</p>
+               <p className='bio1'><span>Following:-</span>{item.following}</p>
+               <p className='bio1'><span>Followers:-</span>{item.followers}</p>
           </div>
+ 
+
+   
+
 
           </div>
           

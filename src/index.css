@@ -1,7 +1,12 @@
+body {
+    background-color: #800080;
+    /* color: #333; Dark gray or any preferred dark color for text */
+  }
+  
+
 .main__div{
    margin: auto;
-   width: 70%;
-   background-color: pink;
+   width: 75%;
    margin-top: 30px;
    text-align: center;
    padding: 10px;
@@ -13,23 +18,103 @@
     font-size: 18px;
     font-weight: 500;
 }
-.btn1 {
+.link__btn{
     padding: 12px 20px;
     margin-left: 20px;
-    background-color: #3498db; /* Use a specific color */
-    color: #fff;
-    border: 1px solid #3498db; /* Add a border for contrast */
-    border-radius: 5px; /* Slightly reduce border-radius for a more subtle effect */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Add a smooth transition for background color */
+    background-color: #ffd700;
+    color: black;
+    border: 1px solid #ffd700; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, padding 0.3s ease; /* Added padding transition */
+    font-size: large;
+    margin-top: 35px; 
 }
 
-.btn1:hover {
-    background-color: #2980b9; /* Darken the background color on hover */
+.link__btn:hover {
+   padding: 14px 22px;
+   background-color: #800080; /* Change background color on hover */
+   color: white; /* Change text color on hover */
 }
+
 
 .loader{
 align-items: center;
 font-size: 180px;
 margin-top: 30px;
 }
+
+.main__rendering{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.profile-container {
+    text-align: center;
+  }
+  
+  .profile-img {
+    display: block; 
+    margin: 0 auto;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 100%; 
+  }
+  
+  .btn1 {
+    margin-top: 35px; 
+    padding: 12px 20px;
+    margin-left: 20px;
+    background-color: #ffd700; 
+    color: #fff;
+    border: 1px solid black; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    font-size: large;
+}
+
+.btn1:hover {
+    padding: 14px 22px; 
+    color: #fff;
+}
+
+.link__btn a{
+    text-decoration: none;
+    color: #fff;
+}
+  .user__name{
+    border: 1px solid black;
+    background-color: white;
+    width: 700px;
+  }
+  
+  .bio{
+    border: 1px solid black;
+    background-color: white;
+    width: 700px;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .bio span{
+    margin-right: 20px;
+  }
+   .bio1{
+    border: 1px solid black;
+    background-color: white;
+    width: 700px;
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  .bio1 span{
+    margin-right: 40px;
+  }
+   
